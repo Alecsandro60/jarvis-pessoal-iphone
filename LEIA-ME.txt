@@ -1,0 +1,30 @@
+JARVIS PESSOAL PARA IPHONE — VERSÃO 0.1
+
+CONTEÚDO
+- index.html: interface, comandos básicos, síntese de voz e memória local.
+- manifest.json: configuração para instalar na tela inicial.
+- sw.js: cache/offline básico quando hospedado por HTTPS.
+
+O QUE JÁ FUNCIONA
+- Interface futurista azul.
+- Comandos básicos de data e horário.
+- Leitura em voz alta quando o navegador suporta.
+- Reconhecimento de voz quando o navegador suporta.
+- Memória de notas no armazenamento local do navegador.
+- Comportamento offline básico após o primeiro carregamento, quando o service worker é suportado.
+
+LIMITAÇÕES IMPORTANTES
+- Ainda não está conectado a um modelo de inteligência artificial.
+- Não controla outros apps nem fica escutando continuamente em segundo plano.
+- A compatibilidade do reconhecimento de voz varia entre navegadores. Se o botão de voz não funcionar, use o campo de texto.
+- As notas ficam neste navegador/aparelho. Limpar os dados do navegador pode apagá-las.
+- Não salve senhas, códigos de autenticação ou informações sensíveis.
+
+COMO HOSPEDAR GRATUITAMENTE NO GITHUB PAGES
+1. Crie um repositório público chamado jarvis-pessoal-iphone no GitHub.
+2. Envie os três arquivos: index.html, manifest.json e sw.js.
+3. Em Settings > Pages, escolha Deploy from a branch, branch main e pasta /(root).
+4. Aguarde a publicação e abra o endereço HTTPS gerado no Safari do iPhone.
+5. No Safari, toque em Compartilhar > Adicionar à Tela de Início.
+
+Este pacote não altera nem depende dos arquivos do Robô de Ofertas.
